@@ -1,0 +1,91 @@
+body{
+    background-image: url("fr.png");
+    background-size: cover;
+    
+}
+h1{
+    color: white;
+}
+
+.main_element{
+    width: 360px;
+    height: 600px;
+    background-image: url("2k.jpg");
+    border-radius: 30px;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.main_element h1{
+    margin-top: 125px;
+    margin-bottom: 60px;
+}
+
+.form_box{
+    width: 260px;
+    height: 40px;
+    background: transparent;
+    border-radius: 10px;
+    outline: auto;
+    outline-style: groove;
+    outline-color: rgba(42, 113, 219, 0.185);
+    margin: 20px auto;
+    
+    
+   
+}
+::placeholder {
+    color: rgb(240, 240, 231);
+}
+.form_box input{
+    background: none;
+    border: none;
+    align-content: center;
+    text-align: center;
+    outline: none;
+    margin-top: 10px;
+    color: rgb(215, 241, 214);
+}
+
+.button{
+    width: 260px;
+    height: 40px;
+    background: rgb(72, 97, 207);
+    border-radius: 20px;
+    margin: 20px auto;
+    outline-style: auto;
+    outline-color: rgba(12, 11, 12, 0.808);
+    color: white;
+    cursor: pointer;
+   
+    
+}
+
+.button:hover {background-color: #3e8e41}
+
+.b1{
+    display: block;
+width: 260px;
+padding: 5px 0;
+color: white;
+text-align: center;
+margin: auto;
+}
+
+.b2{
+    bottom: 130px;
+    left: 50px;
+    width: 260px;
+    padding: 1px 0;
+    position: absolute;
+    text-align: center;
+    color: rgb(58, 131, 226);
+}
+
+a:hover{
+    background: rgb(66, 100, 128);
+}
