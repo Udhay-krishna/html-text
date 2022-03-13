@@ -1,5 +1,17 @@
 body{
-    background:black;
+    background:yellow;
     color:white;
-    text-align: center;
+    
+}
+.container{
+    background: white;
+    width: 500px;
+    border-radius: 20px;
+    max-width: 500px;
+    position: absolute;
+    
+    }
+.container img{
+width: 400px;
+max-width: 100%;
 }
